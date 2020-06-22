@@ -10,7 +10,7 @@ Script em PYTHON para converter endereços em latitude e longitude utilizando "g
 
 Abra o terminal e clone o projeto  
 
-> `git clone git@gitlab.com:paulosfjunior/EndForLatLng.git`
+> `git clone git@github.com:paulosfjunior/EndForLatLng.git`
 
 Navegue para pasta do projeto
 
@@ -22,10 +22,10 @@ Instale as dependências
 
 Realize as seguintes modificações no nos arquivos
 
-> [**converter.py**](https://gitlab.com/paulosfjunior/EndForLatLng/-/blob/master/converter.py)  
+> [**converter.py**](https://github.com/paulosfjunior/EndForLatLng/blob/master/converter.py)  
 > Substitua o valor da variável **"apiKey"** que está dentro da função **"main"** pela ***api key*** que a google gerou para você.
 
-> [**endereco.csv**](https://gitlab.com/paulosfjunior/EndForLatLng/-/blob/master/endereco.csv)  
+> [**endereco.csv**](https://github.com/paulosfjunior/EndForLatLng/blob/master/endereco.csv)  
 > Insira as informações dos endereços conforme modelo *(não apague a linha de titulo)*. Salve o arquivo com o padrão de **`encoding='utf8'`** e **`delimiter=';'`**.
 
 Execute o script e aguarde ler todos os endereços do arquivo "endereco.csv"
